@@ -1,4 +1,0 @@
-/* MIZA Quant OS — Next.js wrapper reset */
-/* The full app lives in /public/miza.html and has its own complete CSS */
-*, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; padding: 0; background: #04040c; }
