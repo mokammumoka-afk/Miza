@@ -1,0 +1,21 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="36" fill="#04040c"/>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="140" x2="180" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <!-- M letter -->
+  <path d="M28 130 L28 55 L62 100 L90 60 L118 100 L152 55 L152 130" 
+        stroke="url(#g1)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Chart line underneath -->
+  <polyline points="22,148 50,138 80,143 105,128 130,132 158,118"
+            stroke="url(#g2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+  <!-- Glow dot -->
+  <circle cx="158" cy="118" r="5" fill="#10b981" opacity="0.9"/>
+</svg>
